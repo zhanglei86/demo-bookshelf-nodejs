@@ -1,6 +1,6 @@
 
 APP_HOME=/app/demo-bookshelf-nodejs
-OUID=./bin/www3303
+OUID=./bin/www3003
 
 if [ "`ps -ef |grep $OUID |grep -v grep`" ];then
   kill -9 `ps -ef |grep $OUID |grep -v grep |awk '{print $2}'`
